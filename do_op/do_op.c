@@ -24,5 +24,7 @@ int	main(int ac, char **av)
 		result = first_nbr * second_nbr;
 	if (operator == '/')
 		result = first_nbr / second_nbr;
+	if (operator == '%')
+		result = first_nbr % second_nbr;
 	return (printf("%ld", result));
 }
